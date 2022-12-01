@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Simple Golf Scorer Dulwich</string>
+    <string name="banner_button">HIYA</string>
+    <string name="button_send">D &amp; S Golfing</string>
+    <string name="count">COUNT</string>
+    <string name="reset">RESET</string>
+    <string name="add_player">Add Player</string>
+    <string name="player_edit">Player Edit</string>
+    <string name="score_entry">Score Entry</string>
+    <string name="del_player">Remove Player</string>
+    <string name="next">Total Scores</string>
+    <string name="playerPage">Player Page</string>
+    <string name="hint_name">Player Name...</string>
+    <string name="hint_handicap">Player Handicap...</string>
+    <string name="button_save">Save</string>
+    <string name="button_delete">Delete</string>    
+    <string name="hole1">Hole 1</string>
+    <string name="hole2">Hole 2</string>
+    <string name="hole3">Hole 3</string>
+    <string name="hole4">Hole 4</string>
+    <string name="hole5">Hole 5</string>
+    <string name="hole6">Hole 6</string>
+    <string name="hole7">Hole 7</string>
+    <string name="hole8">Hole 8</string>
+    <string name="hole9">Hole 9</string>
+    <string name="hole10">Hole 10</string>
+    <string name="hole11">Hole 11</string>
+    <string name="hole12">Hole 12</string>
+    <string name="hole13">Hole 13</string>
+    <string name="hole14">Hole 14</string>
+    <string name="hole15">Hole 15</string>
+    <string name="hole16">Hole 16</string>
+    <string name="hole17">Hole 17</string>
+    <string name="hole18">Hole 18</string>
+    <string name="enter_score">Enter Score</string>
+</resources>

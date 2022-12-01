@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.varilly.simpleGolfScorer">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.simpleGolfScorer"
+        tools:targetApi="32">
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.HoleScoreEntry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.holes.Hole1Entry">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.holes.Hole1Entry" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole1Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole2Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole3Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole4Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole5Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole6Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole7Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole8Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole9Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole10Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole11Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole12Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole13Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole14Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole15Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole16Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole17Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.holes.Hole18Entry"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.ScoresEntryActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.PlayerEditActivity"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.NewPlayerActivity"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.PlayerEditActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.PlayerEditActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.DeletePlayerActivity"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.PlayerEditActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.PlayerEditActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.DisplayMessageActivity"
+            android:exported="true"
+            android:parentActivityName="com.varilly.simpleGolfScorer.activity.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.varilly.simpleGolfScorer.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.varilly.simpleGolfScorer.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

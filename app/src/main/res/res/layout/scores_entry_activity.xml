@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScoresTitle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activity.ScoresEntryActivity">
+
+    <Button
+        android:id="@+id/hole1"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:onClick="goToHole1"
+        android:text="@string/hole1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hole2"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="120dp"
+        android:onClick="goToHole2"
+        android:text="@string/hole2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hole3"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole3"
+        android:text="@string/hole3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole1" />
+
+    <Button
+        android:id="@+id/hole4"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole4"
+        android:text="@string/hole4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole2" />
+
+    <Button
+        android:id="@+id/hole5"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole5"
+        android:text="@string/hole5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole3" />
+
+    <Button
+        android:id="@+id/hole6"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole6"
+        android:text="@string/hole6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole4" />
+
+    <Button
+        android:id="@+id/hole7"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole7"
+        android:text="@string/hole7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole5" />
+
+    <Button
+        android:id="@+id/hole8"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole8"
+        android:text="@string/hole8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole6" />
+
+    <Button
+        android:id="@+id/hole9"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole9"
+        android:text="@string/hole9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole7" />
+
+    <Button
+        android:id="@+id/hole10"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole10"
+        android:text="@string/hole10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole8" />
+
+    <Button
+        android:id="@+id/hole11"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole11"
+        android:text="@string/hole11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole9" />
+
+    <Button
+        android:id="@+id/hole12"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole12"
+        android:text="@string/hole12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole10" />
+
+    <Button
+        android:id="@+id/hole13"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole13"
+        android:text="@string/hole13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole11" />
+
+    <Button
+        android:id="@+id/hole14"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole14"
+        android:text="@string/hole14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole12" />
+
+    <Button
+        android:id="@+id/hole15"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole15"
+        android:text="@string/hole15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole13" />
+
+    <Button
+        android:id="@+id/hole16"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole16"
+        android:text="@string/hole16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole14" />
+
+    <Button
+        android:id="@+id/hole17"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole17"
+        android:text="@string/hole17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole15" />
+
+    <Button
+        android:id="@+id/hole18"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="goToHole18"
+        android:text="@string/hole18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hole16" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/teal_200"
+        android:text="@string/score_entry"
+        android:textColor="@color/teal_200"
+        android:textColorHint="@color/teal_200"
+        android:textSize="60sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="31dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
