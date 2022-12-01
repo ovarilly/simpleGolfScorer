@@ -5,6 +5,7 @@ import android.util.Log;
 
 import com.varilly.simpleGolfScorer.entity.Player;
 import com.varilly.simpleGolfScorer.persistance.PlayerRepository;
+import com.varilly.simpleGolfScorer.persistance.PlayerRoomDatabase;
 
 import java.util.List;
 
@@ -66,4 +67,14 @@ public class PlayerViewModel extends AndroidViewModel {
          Log.e(TAG, "Failed to change score");
       }
    }
+
+   public void resetScores() {
+      try{
+         playerRepository.resetScores();
+         Log.i(TAG, "Reset all scores");
+      }catch (Exception e){
+         Log.e(TAG, "Failed to reset scores");
+      }
+   }
+
 }

@@ -86,5 +86,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void resetScores(View view){
+        mScoreViewModel.resetScores();
+    }
+
+
 
 }

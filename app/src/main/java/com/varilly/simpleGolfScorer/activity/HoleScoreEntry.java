@@ -16,6 +16,7 @@ import static com.varilly.simpleGolfScorer.Constants.FIVE;
 import static com.varilly.simpleGolfScorer.Constants.FOUR;
 import static com.varilly.simpleGolfScorer.Constants.HOLE_PAR;
 import static com.varilly.simpleGolfScorer.Constants.HOLE_SI;
+import static com.varilly.simpleGolfScorer.Constants.NINE;
 import static com.varilly.simpleGolfScorer.Constants.ONE;
 import static com.varilly.simpleGolfScorer.Constants.PLAYER_IN_HAND;
 import static com.varilly.simpleGolfScorer.Constants.PLAYER_IN_HAND_HC;
@@ -57,6 +58,8 @@ public class HoleScoreEntry extends AppCompatActivity{
             doubleButton.setText(FIVE);
             Button tripleButton = (Button)findViewById(R.id.triple);
             tripleButton.setText(SIX);
+            Button quadButton = (Button)findViewById(R.id.quad);
+            quadButton.setText(SEVEN);
         }if(par == 4){
             Button eagleButton = (Button)findViewById(R.id.eagle);
             eagleButton.setText(TWO);
@@ -70,6 +73,8 @@ public class HoleScoreEntry extends AppCompatActivity{
             doubleButton.setText(SIX);
             Button tripleButton = (Button)findViewById(R.id.triple);
             tripleButton.setText(SEVEN);
+            Button quadButton = (Button)findViewById(R.id.quad);
+            quadButton.setText(EIGHT);
         }if(par == 5){
             Button eagleButton = (Button)findViewById(R.id.eagle);
             eagleButton.setText(THREE);
@@ -82,7 +87,10 @@ public class HoleScoreEntry extends AppCompatActivity{
             Button doubleButton = (Button)findViewById(R.id.doubleBogey);
             doubleButton.setText(SEVEN);
             Button tripleButton = (Button)findViewById(R.id.triple);
-            tripleButton.setText(EIGHT);        }
+            tripleButton.setText(EIGHT);
+            Button quadButton = (Button)findViewById(R.id.quad);
+            quadButton.setText(NINE);
+        }
     }
 
     public void scoreUpdate(View view){

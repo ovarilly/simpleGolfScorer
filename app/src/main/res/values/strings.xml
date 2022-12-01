@@ -1,13 +1,14 @@
 <resources>
-    <string name="app_name">Simple Golf Scorer Dulwich</string>
+    <string name="app_name">Simple Golf Scorer CLAYS</string>
     <string name="banner_button">HIYA</string>
-    <string name="button_send">D &amp; S Golfing</string>
+    <string name="button_send">Clays Golfing</string>
     <string name="count">COUNT</string>
     <string name="reset">RESET</string>
     <string name="add_player">Add Player</string>
     <string name="player_edit">Player Edit</string>
     <string name="score_entry">Score Entry</string>
     <string name="del_player">Remove Player</string>
+    <string name="reset_scores">Reset Scores</string>
     <string name="next">Total Scores</string>
     <string name="playerPage">Player Page</string>
     <string name="hint_name">Player Name...</string>

@@ -51,24 +51,24 @@ public abstract class PlayerRoomDatabase extends RoomDatabase {
          databaseWriteExecutor.execute(() -> {            // Populate the database in the background.
 
             HoleDao holeDao = INSTANCE.holeDao();
-            holeDao.insert(new Hole(1, 11, 3));
-            holeDao.insert(new Hole(2, 5, 4));
+            holeDao.insert(new Hole(1, 3, 4));
+            holeDao.insert(new Hole(2, 14, 3));
             holeDao.insert(new Hole(3, 9, 4));
-            holeDao.insert(new Hole(4, 13, 5));
-            holeDao.insert(new Hole(5, 3, 4));
-            holeDao.insert(new Hole(6, 15, 3));
-            holeDao.insert(new Hole(7, 7, 4));
-            holeDao.insert(new Hole(8, 1, 3));
-            holeDao.insert(new Hole(9, 17, 3));
-            holeDao.insert(new Hole(10, 14, 4));
-            holeDao.insert(new Hole(11, 6, 4));
-            holeDao.insert(new Hole(12, 12, 3));
-            holeDao.insert(new Hole(13, 4, 4));
-            holeDao.insert(new Hole(14, 8, 3));
-            holeDao.insert(new Hole(15, 16, 5));
+            holeDao.insert(new Hole(4, 5, 4));
+            holeDao.insert(new Hole(5, 18, 3));
+            holeDao.insert(new Hole(6, 11, 4));
+            holeDao.insert(new Hole(7, 1, 4));
+            holeDao.insert(new Hole(8, 10, 4));
+            holeDao.insert(new Hole(9, 17, 4));
+            holeDao.insert(new Hole(10, 4, 4));
+            holeDao.insert(new Hole(11, 12, 4));
+            holeDao.insert(new Hole(12, 16, 3));
+            holeDao.insert(new Hole(13, 13, 4));
+            holeDao.insert(new Hole(14, 8, 4));
+            holeDao.insert(new Hole(15, 6, 5));
             holeDao.insert(new Hole(16, 2, 4));
-            holeDao.insert(new Hole(17, 10, 4));
-            holeDao.insert(new Hole(18, 18, 4));
+            holeDao.insert(new Hole(17, 7, 3));
+            holeDao.insert(new Hole(18, 15, 4));
 
          });
       }
