@@ -71,4 +71,15 @@ public class PlayerRepository {
          Log.e(TAG, "Failed to delete all");
       }
    }
+
+
+   public void resetScores() {
+      try{
+         PlayerRoomDatabase.databaseWriteExecutor.execute(()-> {
+            mPlayerDao.resetScores();
+         });
+      }catch (Exception e){
+         Log.e(TAG, "Failed to reset all");
+      }
+   }
 }

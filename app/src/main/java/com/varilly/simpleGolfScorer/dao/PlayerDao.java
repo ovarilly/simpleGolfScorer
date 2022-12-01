@@ -34,4 +34,9 @@ public interface PlayerDao {
             "SET score = score + :addition, stablefordScore = stablefordScore + :stablefordAddition " +
             "WHERE playerName = :playerName")
     void addToScoreForPlayerName(String playerName, int addition, int stablefordAddition);
+
+    @Query("UPDATE player_table " +
+            "SET score = 0, stablefordScore = 0 ")
+    void resetScores();
 }
+

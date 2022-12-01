@@ -1,4 +1,4 @@
-package com.varilly.simplegolfscorerdulwich;
+package com.varilly.simplegolfscorer;
 
 import android.content.Context;
 

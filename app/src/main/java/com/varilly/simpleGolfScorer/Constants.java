@@ -24,6 +24,7 @@ public class Constants {
    public static String SIX = "6";
    public static String SEVEN = "7";
    public static String EIGHT = "8";
+   public static String NINE = "9";
 
    public static String PLAYER_IN_HAND = "playerInHand";
    public static String PLAYER_IN_HAND_HC = "playerInHandHc";
